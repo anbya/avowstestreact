@@ -22,7 +22,6 @@ class dashboard extends Component {
         this.handleInputChange = this.handleInputChange.bind(this);
     }
     componentDidMount = () => {
-        console.log(this.props.token,this.props.userinfo);
         this.fetchData()
     }
     fetchData = () =>{
